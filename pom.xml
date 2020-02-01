@@ -12,7 +12,7 @@
     <artifactId>graphql</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>graphql</name>
-    <description>Demo project for Spring Boot</description>
+    <description>a sample GrapHQL implementation with Spring Boot</description>
 
     <properties>
         <java.version>11</java.version>
