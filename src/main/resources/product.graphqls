@@ -1,0 +1,14 @@
+type Product {
+id: ID!,
+code: String,
+name: String,
+maxSellableQuantity: Int,
+price: Float
+}
+type Query {
+products(count: Int):[Product]
+product(id: ID):Product
+}
+type Mutation {
+createProduct(code: String!, name: String!, maxSellableQuantity: Int, price: Float):Product
+}
